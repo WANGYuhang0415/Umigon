@@ -12,5 +12,21 @@ export class navBarComponent {
   {
     this.router.navigate(['about']);
   }
+  changeToIndex()
+  {
+    this.router.navigate(['index']);
+  }
+  changeToFeatures()
+  {
+    this.router.navigate(['features']);
+  }
+  changeToPricing()
+  {
+    this.router.navigate(['pricing']);
+  }
+  changeToSubmit()
+  {
+    this.router.navigate(['submit']);
+  }
   
 }

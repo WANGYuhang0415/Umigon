@@ -1,11 +1,11 @@
 <nav id="navbar-fixed-top">
     <div class="container-nav">
         <ul class="navli">
-            <li><button mat-button>Home</button></li>
+            <li (click)="changeToIndex()"><button mat-button>Home</button></li>
             <li (click)="changeToAbout()"><button mat-button>About</button></li>
-            <li><button mat-button>Features</button></li>
-            <li><button mat-button>Pricing</button></li>
-            <li><button mat-button>Submit a new api</button></li>            
+            <li (click)="changeToFeatures()"><button mat-button>Features</button></li>
+            <li (click)="changeToPricing()"><button mat-button>Pricing</button></li>
+            <li (click)="changeToSubmit()"><button mat-button>Submit a new api</button></li>            
         </ul>
     </div>
 </nav>
