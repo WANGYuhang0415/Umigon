@@ -1,11 +1,16 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'navBar',
   templateUrl: './navBar.component.html',
-  //styleUrls: ['./navBar.component.css'] */
+  styleUrls: ['./navBar.component.css']
 })
 export class navBarComponent {
-  constructor() { }
+  constructor(private router: Router) { }
+  changeToAbout()
+  {
+    this.router.navigate(['about']);
+  }
   
 }
