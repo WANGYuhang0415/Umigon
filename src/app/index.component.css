@@ -8,6 +8,25 @@
     line-height: 1.86;
 }
 
+.text-container{
+    margin-top:100px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #3f51b5;
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    font-size: 16px;
+    line-height: 1.86;
+}
+
+.card{
+    margin-left: 15%;
+    margin-right:15%;
+    width:70%;
+}
+/* .example-card {
+    width: 400px;
+} */
+
 .sidebar{
     position: fixed;
     padding: 100px 0;
@@ -45,4 +64,52 @@ li{
     margin-left: 32%;
     height:100%;
 }
+.content{
+    position: absolute;
+    height: 800px;
+    width: 100%;
+}
 
+mat-grid-tile {
+    color:#696969;
+    font-family: 'Microsoft Yahei';
+    font-size: 20px;    
+    background: white;
+    box-shadow: 1px 1px 1px 2px #DCDCDC;
+}
+
+
+@media only screen and (max-width: 801px) and (min-width: 500px) {
+    .card{
+        margin-left: 5%;
+        margin-right:5%;
+        width:90%;
+    }
+
+    mat-grid-tile {
+        font-size: 18px;    
+    }
+    
+}
+    
+@media only screen and (max-width: 499px){
+    
+    .card{
+        margin-left: 0;
+        margin-right:0;
+        width:100%;
+    }
+
+    .text{
+        margin-top: 19%;
+        font-size: 12px;
+        line-height: 0.46;
+    }
+
+    h1{font-size: 20px;}
+    h2{font-size: 16px;}
+
+    mat-grid-tile {
+        font-size: 12px;    
+    }
+}

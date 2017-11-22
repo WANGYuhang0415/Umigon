@@ -1,0 +1,53 @@
+.about-container{
+    font-family: "tahoma,arial,sans-serif";
+    background-color:  #e0e0eb;
+    height: 100%;
+   /*  width: 100%; */
+    position: absolute;
+    top: 100px;
+    left: 1%;
+    right: 1%;
+    box-shadow: 3px 2px 8px rgba(0,0,0,0.07);
+    overflow: auto;
+}
+
+.title{
+    color: #0073e6;
+    padding-left: 3%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: solid 2px #f0f0f5; 
+}
+.subtitle{
+    padding-left: 3%;
+    color: #3d3d5c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+mat-card{
+    left:3%;
+    width: 88%;
+   /*  border: solid 1px #e6eeff; */
+    text-align: center;
+    padding-top: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.privacy{
+    color:  #2929a3;
+    height: 10px;
+    background-color:  #e0e0eb;
+}
+
+.subcard{
+    margin-top: 12px;
+    text-align: left;
+    background-color: #F3F3F7;
+    color: #3d3d5c;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}

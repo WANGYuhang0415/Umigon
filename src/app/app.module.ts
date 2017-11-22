@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatCheckboxModule, MatSidenavModule } from '@angular/material';
+import { MatButtonModule, MatCheckboxModule, MatSidenavModule,MatCardModule, MatGridListModule } from '@angular/material';
 import { FlexLayoutModule } from "@angular/flex-layout";
 
 
@@ -31,7 +31,9 @@ import { SubmitComponent } from './submit.component';
     MatButtonModule, 
     MatCheckboxModule,
     FlexLayoutModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatGridListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

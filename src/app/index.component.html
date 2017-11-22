@@ -1,6 +1,6 @@
 <navBar></navBar>
 
-<aside class="sidebar">
+<!-- <aside class="sidebar">
     <ul class="main-action">
         <li id="title">Sentiment analysis for tweets</li>
         <li>test page</li>
@@ -8,11 +8,25 @@
         <li>pricing / get an api key</li>
         <li>based on this research</li>
     </ul>  
-</aside>
-<div class="main">
+</aside> -->
+<!-- <div class="main">
     <div class="text">
         <h1>Explore Your Data</h1>
         <h2>APIs for data enrichment. simple, fast, transparent</h2>
+    </div>
+</div> -->
+<div class="content">
+    <div class="text-container">
+        <h1>Explore Your Data</h1>
+        <h2>APIs for data enrichment, simple, fast, transparent</h2>
+    </div>
+    <div class="card">
+        <mat-grid-list cols="2" rowHeight="3:1" gutterSize="20px">
+            <mat-grid-tile>TEST PAGE</mat-grid-tile>
+            <mat-grid-tile (click)="changeTODoc()">DOCUMENTATION</mat-grid-tile>
+            <mat-grid-tile>PRICING / GET AN API KEY</mat-grid-tile>
+            <mat-grid-tile (click)="changeTOResearch()">BASE ON THIS RESEARCH</mat-grid-tile>
+        </mat-grid-list>
     </div>
 </div>
 
