@@ -13,25 +13,25 @@
     margin-top:0px;
     padding-top: 100px;
     padding-bottom: 10px;
-    margin-bottom: 50px;
+    height: 38%;
+    /* margin-bottom: 50px; */
    /*  text-align: center; */
-    color: #DEDEDE;
+    color: #fff;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    line-height: 1.6;
-    background-image: url('../assets/2.jpg');
-    filter:alpha(opacity=40);
-    /* CSS3 standard */
-    opacity:0.9;
+    line-height: 1.86;
+    background-image: url('../assets/3.png');
 }
-h1{padding-left: 3%; font-size: 52px;}
-h2{padding-right: 3%; text-align: right;}
+
+h1{padding-left: 10%; font-size: 52px;}
+h2{padding-right: 6%; text-align: right;}
+
 
 
 .card{
-    margin-left: 15%;
-    margin-right:15%;
-    width:70%;
+    margin-left: 0;
+    margin-right:0;
+    width:100%;
 }
 /* .example-card {
     width: 400px;
@@ -81,11 +81,14 @@ li{
 }
 
 mat-grid-tile {
-    color:grey;
+    background-color: #5782b7;
+    color: #94b6df;
+   /*  color:grey; */
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 20px;    
-    background: #fff;
-    box-shadow: 1px 1px 1px 1.5px #828282;
+    font-size: 20px;  
+    border-left: 1px dashed #6894ca;  
+    /* background: #fff; */
+   /*  box-shadow: 1px 1px 1px 1.5px #828282; */
 }
 
 /* .action1{
