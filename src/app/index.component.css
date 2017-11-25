@@ -1,22 +1,32 @@
+
 .text{
     padding-left: 20px;
     margin-top: 19%;
     text-align: center;
     color: #3f51b5;
-    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 19px;
     line-height: 1.86;
 }
 
 .text-container{
-    margin-top:100px;
+    margin-top:0px;
+    padding-top: 100px;
+    padding-bottom: 10px;
     margin-bottom: 50px;
-    text-align: center;
-    color: #3f51b5;
-    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+   /*  text-align: center; */
+    color: #DEDEDE;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    line-height: 1.86;
+    line-height: 1.6;
+    background-image: url('../assets/2.jpg');
+    filter:alpha(opacity=40);
+    /* CSS3 standard */
+    opacity:0.9;
 }
+h1{padding-left: 3%; font-size: 52px;}
+h2{padding-right: 3%; text-align: right;}
+
 
 .card{
     margin-left: 15%;
@@ -41,7 +51,7 @@
     display: block;
     list-style-type: disc;
     line-height: 3.5;
-    font-family: "Roboto", sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: normal;
     color: #4F4F4F;
 }
@@ -71,12 +81,18 @@ li{
 }
 
 mat-grid-tile {
-    color:#696969;
-    font-family: 'Microsoft Yahei';
+    color:grey;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 20px;    
-    background: white;
-    box-shadow: 1px 1px 1px 2px #DCDCDC;
+    background: #fff;
+    box-shadow: 1px 1px 1px 1.5px #828282;
 }
+
+/* .action1{
+    background-image: url('../assets/1.jpg');
+    filter:alpha(opacity=40);
+    opacity:0.4;
+} */
 
 
 @media only screen and (max-width: 801px) and (min-width: 500px) {
