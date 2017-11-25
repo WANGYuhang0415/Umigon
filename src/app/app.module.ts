@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatCheckboxModule, MatSidenavModule,MatCardModule, MatGridListModule } from '@angular/material';
+import { MatButtonModule, MatCheckboxModule, MatSidenavModule,MatCardModule, MatGridListModule, MatIconModule } from '@angular/material';
 import { FlexLayoutModule } from "@angular/flex-layout";
 
 
@@ -33,7 +33,8 @@ import { SubmitComponent } from './submit.component';
     FlexLayoutModule,
     MatSidenavModule,
     MatGridListModule,
-    MatCardModule
+    MatCardModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
