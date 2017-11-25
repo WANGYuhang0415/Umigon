@@ -20,6 +20,7 @@
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     line-height: 1.86;
+   /*  background-image: url('../assets/background.jpg'); */
     background-image: url('../assets/3.png');
 }
 
@@ -81,6 +82,7 @@ li{
 }
 
 mat-grid-tile {
+    position: absolute;
     background-color: #5782b7;
     color: #94b6df;
    /*  color:grey; */
@@ -89,6 +91,27 @@ mat-grid-tile {
     border-left: 1px dashed #6894ca;  
     /* background: #fff; */
    /*  box-shadow: 1px 1px 1px 1.5px #828282; */
+}
+
+/* .action1
+{
+    position: absolute;
+    bottom: 25%;
+    left: 32%;
+}
+ */
+.action2
+{
+    position: absolute;
+    bottom: 25%;
+}
+
+
+mat-icon{
+    position: absolute;
+    top:10%;
+    left: 40%;
+    font-size: 70px;
 }
 
 /* .action1{
