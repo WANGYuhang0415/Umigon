@@ -122,17 +122,31 @@ mat-icon{
 
 
 @media only screen and (max-width: 801px) and (min-width: 500px) {
-    .card{
+    /* .card{
         margin-left: 5%;
         margin-right:5%;
         width:90%;
-    }
+    } */
 
     h1{font-size: 38px;}
     h2{font-size: 28px;}
 
     mat-grid-tile {
-        font-size: 18px;    
+        font-size: 12px;    
+    }
+
+    mat-icon{
+       /*  position: absolute;
+        top:10%;
+        left: 40%; */
+        font-size: 35px;
+    }
+
+    .action2
+    {
+       /*  position: absolute; */
+        text-align: center;
+        bottom: 4%;
     }
     
 }
