@@ -17,6 +17,7 @@ body{margin:0 auto;}
     -ms-flex-align: center;
     align-items: center;
     padding: 8px 16px;
+    border-bottom: solid 1px #eaeaea;
 }
 #navbar-fixed-top .container-nav {
     background: #F3F3F7;
