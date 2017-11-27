@@ -1,4 +1,5 @@
 .about-container{
+    /* font-family: "Open Sans", Helvetica Neue, Sans-serif; */
     height: 100%;
    /*  width: 100%; */
     position: absolute;
@@ -8,40 +9,43 @@
 }
 
 .sub{
-    color: #3498db;
-    padding-left: 3%;
+    color: #454545;
+    margin-left: 48%;
     padding-top: 15px;
     padding-bottom: 5px;
     font-size: 24px;
-    border-bottom: solid 2px #eaeaea; 
+    border-bottom: solid 2px #43BBEF; 
 }
 
 .img{
   /*   position: absolute; */
     margin-left: 5%;
     margin-top: 28px;
-    width: 35%;
-    height: 40%;
-    opacity:0.9;
-    filter:alpha(opacity=90); 
+    width: 40%;
+    height: 55%;
+    float: left;
+   /*  opacity:0.9;
+    filter:alpha(opacity=90);  */
     /* float: right; */
 }
 
 .subcard{
-    float: left;
     margin-top: 28px;
     text-align: left;
     background-color: #F3F3F7;
-    color: #4F4F4F;
+    color: #707070;
     padding-top: 5px;
-    left: 2%;
-    width: 45%;
+    margin-left: 48%;
+    width: 48%;
     margin-bottom: 10px;
-    font-size: 36px;
-  /*   font-weight: bold; */
+    line-height: 2.64;
+    /*   font-weight: bold; */
+}
+
+mat-card-content{
+    font-size: 15px;
 }
 
 li{
     padding-left: 5%;
-    line-height: 3.64;
 }

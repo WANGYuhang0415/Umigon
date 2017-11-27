@@ -13,6 +13,7 @@ import { navBarComponent } from './navBar.component';
 import { FeaturesComponent } from './features.component';
 import { PricingComponent } from './pricing.component';
 import { SubmitComponent } from './submit.component';
+import { SubNavComponent } from './subNav.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SubmitComponent } from './submit.component';
     navBarComponent,
     FeaturesComponent,
     PricingComponent,
-    SubmitComponent
+    SubmitComponent,
+    SubNavComponent
   ],
   imports: [
     BrowserModule,
