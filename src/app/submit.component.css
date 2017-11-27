@@ -49,3 +49,44 @@ mat-card-content{
 li{
     padding-left: 5%;
 }
+
+@media only screen and (max-width: 680px){
+
+    .img{
+          width: 80%;
+          height: 45%;
+          float: left;
+      }
+
+      .sub{
+            float: left;
+           /*  position: absolute;
+            top: 250px; */
+            margin-left: 4%;
+           /*  padding-top: 200px; */
+            font-size: 24px;
+    }
+
+    .subcard{
+        float: left;
+        /* margin-top: 200px; */
+        text-align: left;
+        background-color: #F3F3F7;
+        color: #707070;
+       /*  padding-top: 5px; */
+        margin-left: 4%;
+        width: 80%;
+        margin-bottom: 10px;
+        line-height: 2.64;
+        /*   font-weight: bold; */
+    }
+    
+    mat-card-content{
+        font-size: 15px;
+    }
+    
+    li{
+        padding-left: 5%;
+    }
+
+}
