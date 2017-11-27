@@ -1,14 +1,63 @@
 .about-container{
- /*    font-family: "tahoma,arial,sans-serif"; */
-  /*   background-color:  #e0e0eb; */
     height: 100%;
-   /*  width: 100%; */
+    width: 100%;
     position: absolute;
-    top: 100px;
-    left: 1%;
-    right: 1%;
+    padding-top: 100px;
+    background-size:cover;
+   /*  top: 100px; */
+   /*  left: 1%;
+    right: 1%; */
    /*  box-shadow: 3px 2px 8px rgba(0,0,0,0.07); */
     overflow: auto;
+   background-image: url("../assets/bg.jpg");
+}
+
+.sub{
+    color: #454545;
+    /* text-align: center; */
+   /*  margin-left: 48%; */
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 28px;
+  /*   border-bottom: solid 2px #43BBEF;  */
+}
+
+.text-center{
+    text-align: center;
+}
+
+.separator {
+    width: 10px;
+    height: 10px;
+    margin: 20px auto;
+    background: #43BBEF;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.separator:after {
+    position: absolute;
+    left: 5%;
+    bottom: 4px;
+    height: 2px;
+    width: 80px;
+    background: #eee;
+    content: "";
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.separator:before {
+    position: absolute;
+    right: 5%;
+    bottom: 4px;
+    height: 2px;
+    width: 80px;
+    background: #eee;
+    content: "";
+    display: inline-block;
+    margin-right: 20px;
 }
 
 *, *:before, *:after {
@@ -16,22 +65,22 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
-  
-  body {
-    font-family: 'Nunito', sans-serif;
-    color: #384047;
-  }
+
+/*   body {
+    color: #707070;
+  } */
   
   table {
+    font-size: 18px;
     max-width: 960px;
     margin: 10px auto;
   }
   
-  caption {
+/* caption {
     font-size: 1.6em;
     font-weight: 400;
     padding: 10px 0;
-  }
+  } */
   
   thead th {
     font-weight: 400;
@@ -41,12 +90,14 @@
   
   tr {
     background: #f4f7f8;
+    color: #707070;
     border-bottom: 1px solid #FFF;
     margin-bottom: 5px;
   }
   
   tr:nth-child(even) {
     background: #e8eeef;
+    color: #707070;
   }
   
   th, td {
@@ -55,14 +106,5 @@
     font-weight: 300;
   }
   
-  tfoot tr {
-    background: none;
-  }
-  
-  tfoot td {
-    padding: 10px 2px;
-    font-size: 0.8em;
-    font-style: italic;
-    color: #8a97a0;
-  }
+
   
