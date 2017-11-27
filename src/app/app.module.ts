@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatCheckboxModule, MatSidenavModule,MatCardModule, MatGridListModule, MatIconModule } from '@angular/material';
+import { MatButtonModule, MatCheckboxModule, MatSidenavModule,MatCardModule, MatGridListModule, MatIconModule, MatTableModule } from '@angular/material';
 import { FlexLayoutModule } from "@angular/flex-layout";
 
 
@@ -36,7 +36,8 @@ import { SubNavComponent } from './subNav.component';
     MatSidenavModule,
     MatGridListModule,
     MatCardModule,
-    MatIconModule
+    MatIconModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
