@@ -1,4 +1,4 @@
-#### In the test page, the result will be like this:
+### In the test page, the result will be like this:
 <input type="text" style="width:200px; height:20px;"/>
 <input type="button" value="SEND" />
 
@@ -22,4 +22,13 @@ Result: NEGATIVE</br>
 
 
 - Parse the json to get the nagative emotion or postive emotion, and show this result in this page.
+
+
+### To get it:
+
+
+Heroku: https://test-umigon.herokuapp.com/index
+
+
+Github: https://github.com/WANGYuhang0415/Umigon.git
 
