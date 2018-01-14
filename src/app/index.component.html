@@ -22,7 +22,8 @@
     </div>
     <div class="card">
         <mat-grid-list cols="4" rowHeight="1:0.55" gutterSize="0px">
-            <mat-grid-tile><mat-icon>build</mat-icon>
+            <mat-grid-tile (click)="changeToTest()"> 
+                <mat-icon>build</mat-icon>
                 <div class="action2">TEST PAGE</div>
                 </mat-grid-tile>
             <mat-grid-tile (click)="changeTODoc()">

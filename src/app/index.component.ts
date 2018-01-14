@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'index',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./index.component.css']
 })
 export class IndexComponent {
-  constructor() { }
+  constructor(private router: Router) { }
   changeTODoc()
   {
     window.location.href = "https://umigon.docs.apiary.io/#";
@@ -14,5 +15,10 @@ export class IndexComponent {
   changeTOResearch()
   {
     window.location.href = "https://www.cs.york.ac.uk/semeval-2013/accepted/27_Paper.pdf";
+  }
+
+  changeToTest()
+  {
+    this.router.navigate(['test']);
   }
 }

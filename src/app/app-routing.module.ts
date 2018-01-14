@@ -6,6 +6,7 @@ import { IndexComponent } from './index.component';
 import { FeaturesComponent } from './features.component';
 import { PricingComponent } from './pricing.component';
 import { SubmitComponent } from './submit.component';
+import { TestPageComponent } from './testPage.component';
 
 const routes: Routes = [
   {
@@ -30,6 +31,10 @@ const routes: Routes = [
   },
   {
     path:'submit', component:SubmitComponent,
+    children: [],
+  },
+  {
+    path:'test', component:TestPageComponent,
     children: [],
   },
 

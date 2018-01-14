@@ -14,6 +14,7 @@ import { FeaturesComponent } from './features.component';
 import { PricingComponent } from './pricing.component';
 import { SubmitComponent } from './submit.component';
 import { SubNavComponent } from './subNav.component';
+import { TestPageComponent } from './testPage.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SubNavComponent } from './subNav.component';
     FeaturesComponent,
     PricingComponent,
     SubmitComponent,
-    SubNavComponent
+    SubNavComponent,
+    TestPageComponent
   ],
   imports: [
     BrowserModule,
