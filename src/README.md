@@ -32,3 +32,28 @@ Heroku: https://test-umigon.herokuapp.com/index
 
 Github: https://github.com/WANGYuhang0415/Umigon.git
 
+### To install Angular:
+
+
+1.  Install Node.js
+2.	Install npm d’une nouvelle version
+3.  Install angular-cli 
+4.  Create un project
+5.  cd C:\Work\Git   <br/>
+    ng new csm -routing <br/>
+        Rename le folder
+6.  Test application
+          ng serve
+
+### To install Angular material:
+
+
+https://material.angular.io/guide/getting-started
+
+### Pay attention:
+
+
+1. The versions of angular-cli and angular material are matched in this application. If you want to upgrade them to a new version, please make sure the versions haven't the conflits. My suggestion is to keep this version or upgrade them to the latest versions.
+2. This application is developped by Angular2, is different from AngularJS. 
+
+
